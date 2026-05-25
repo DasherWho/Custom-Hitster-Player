@@ -26,11 +26,19 @@ def isPlaying(sp):
         print("No active playback session found. Restart Spotify and play a song!")
         print("Restarting the Program to reconnect to the Spotify Session.")
         print("Sleeping 20 Sec...")
-        time.sleep(20)
+        time.sleep(10)
         main()
+    try:
+        is_playing = data["is_playing"]
+    except:
+        print("WARNING: data has Type none and can't be assigned a var")
+        return False
+    if is_playing == type(None):
+        return False
+    else:
+        return is_playing
+
     
-    is_playing = data["is_playing"]
-    return is_playing
 
 def playRandomTrack(trackList, sp):
     is_playing = isPlaying(sp=sp)
