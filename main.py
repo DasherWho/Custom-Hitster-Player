@@ -1,7 +1,19 @@
-from Spotify import spotifyAuth
+import texts
 import json
 import random
 import time
+import sys
+
+try:
+    import spotipy, dotenv
+except:
+    print(texts.error["003"])
+    time.sleep(3)
+    sys.exit()
+
+from Spotify import spotifyAuth
+
+
 
 def importantInformation():
     print("When Spotipy tries to get the access Token to your account there is a Test wehere a Browser Window is going to open and you have to paste the URL in the Terminal (remenber to use CTR + Shift + V)")
