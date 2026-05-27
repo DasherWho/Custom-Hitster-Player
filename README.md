@@ -30,8 +30,20 @@ When you have either printed out the Template or have coppied the template on yo
 Now you have lots of empty year cards first write a random Year on the first one or let the Program pick a random song and use that year. You can also use one of the Cards of the Hitster Game.\
 Lay it in front of you and that the beginning of your Timeline\
 When you guess the year of a song you lay a new empty year card on either side of your start card.\
-If you guessed right you can write the year of the song on the card and place it at the correct spot, now it's the next players turn.\
+If you guessed right you can write the year of the song on the card and place it at the correct spot, now it's the next players turn.\ 
 Repeat this until one Person has 10 Cards, this Person is the Winner.
+
+## Song guessing rules
+#### If you want to guess Song and Artists instead of the timeline you can do that
+You can use the normal gamemode but you do not care about the year and only for the song title and artist.
+
+For every song title you guess correct you get 2 points.\
+For every song artist you guess you get 1 point.\
+And if you guessed both title and artist you get 3 Points.
+
+Whoever gets to 20 points first wins the round.
+
+##### Tip: you can change the point system as you like
 
 ## FAQ
 #### Q: Do I need Spotify Premium?
