@@ -3,8 +3,29 @@ import texts as t
 import time
 
 
+def loadPlaylistID():
+    print(t.loadPlaylistID)
+    result = input()
+    if result == "":
+        print(t.howToGetID)
+        loadPlaylistID()
+    else:
+        playlistID = result
+        print("Playlist ID:" + playlistID)
+        return playlistID
+
 def game():
-    pass
+    print(t.game)
+    try:
+        result = int(input())
+    except:
+        print(t.error["001"])
+        game()
+    
+    if result == 1:
+        pass
+    elif result == 2:
+        loadPlaylistID()
 
 def Rules():
     print(t.rules)
@@ -36,7 +57,7 @@ def Text():
         webbrowser.open(url="https://github.com/DasherWho/Custom-Hitster-Player")
         time.sleep(3)
     elif result == 3:
-        pass
+        game()
     elif result == 4:
         print(t.error["002"])
         time.sleep(1)

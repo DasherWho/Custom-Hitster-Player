@@ -7,7 +7,7 @@ import dotenv
 
 
 def spotifyAuth(scope):
-    redirect_uri = "https://github.com/DasherWho"
+    redirect_uri = "https://github.com/DasherWho/Custom-Hitster-Player"
     dotenv.load_dotenv(".env")
     SPOTIPY_CLIENT_ID = os.environ["SPOTIPY_CLIENT_ID"]
     SPOTIPY_CLIENT_SECRET = os.environ["SPOTIPY_CLIENT_SECRET"]

@@ -10,3 +10,5 @@ frontPage1 = "Welcome to the Custom Hitster Player!\n With this Program you can 
 frontPage2 = "What would you like to do?\n\n [1]Read the Rules | [2]Open Github link | [3]Start the Game | [4]Launch the UI"
 rules = "[1]Read original Hitster Rules | [2]Read added Rules"
 game = "[1]Start the Game | [2]Load Playlist"
+loadPlaylistID = "Please paste your Playlist ID into the Terminal.\n If you do not know to get the Playlist ID just press enter."
+howToGetID = 'Get the URL of your Playlist. The last letters before the "/" is the ID.\n For example for "https://open.spotify.com/playlist/5YdHUSd8VKnNZgdEzEgjpm?si=8e21911118bb40a4"\n it would be "5YdHUSd8VKnNZgdEzEgjpm?si=8e21911118bb40a4"'

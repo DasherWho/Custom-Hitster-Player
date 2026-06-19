@@ -71,5 +71,8 @@ def main():
     tracks = extractTracks(playlistID=playlist_ID, sp=sp)
     playRandomTrack(trackList=tracks, sp=sp)
 
+def checkForValidPlaylistID():
+    pass
+
 if __name__ == "__main__":
     main()

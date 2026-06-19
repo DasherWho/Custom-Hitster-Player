@@ -27,4 +27,4 @@ while True:
     input("To stop the Music press Enter\n\n")
     sp.pause_playback()
     input("If you want to play the next Song press Enter\n\n")
-    time.sleep(3)
+    time.sleep(2)
