@@ -28,7 +28,7 @@ if result == 1:
         print("Loading Playlist from Spotify... This can take a while...")
         tracks = main.extractTracks(playlistID=playlist_ID, sp=sp)
 
-        t = {
+        t = {s
         "1":tracks
         }
 

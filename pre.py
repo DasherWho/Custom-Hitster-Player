@@ -2,6 +2,7 @@ from Spotify import spotifyAuth
 import json
 import main
 import texts
+
 import time, sys, random, pathlib
 try:
     import spotipy, dotenv
